@@ -10,7 +10,7 @@ LOCAL_C_INCLUDES += abc.h
 LOCAL_HEADER_LIBRARIES := libutils_headers
 LOCAL_SRC_FILES        := abc.c
 LOCAL_MODULE           := libAA_BB
-LOCAL_SHARED_LIBRARIES := libcutils
+LOCAL_SHARED_LIBRARIES := libcutils libmmcamera2_mct
 
 LOCAL_MODULE_OWNER     := qti/mtk
 LOCAL_PROPRIETARY_MODULE:= true

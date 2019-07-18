@@ -72,3 +72,7 @@ Android.mk：
   
   LOCAL_CFLAGS := $(OPENCV_COMMON_CFLAGS)
 
+undefined reference to 'cv::String::allocate(unsigned int)'
+opencv库未加载成功
+LOCAL_SHARED_LIBRARIES := libcutils libmmcamera2_mct
+因为LOCAL_SHARED_LIBRARIES赋值时将之前的库给冲掉了导致未加载，定义时注意。

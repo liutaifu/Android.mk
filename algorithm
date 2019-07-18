@@ -1,0 +1,76 @@
+1.FFmpeg 
+  FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter 
+  and play pretty much anything that humans and machines have created.
+2.FreeType
+  FreeType is a freely available software library to render fonts.
+3.Fontconfig
+  Fontconfig is a library for configuring and customizing font access. 
+4.FriBidi
+  The FriBidi package is an implementation of the Unicode Bidirectional Algorithm (BIDI). 
+  This is useful for supporting Arabic and Hebrew alphabets in other packages.
+5.harfbuzz
+  HarfBuzz is a text shaping engine. It primarily supports OpenType, but also Apple Advanced Typography. 
+  HarfBuzz is used in Android, Chrome, ChromeOS, Firefox, GNOME, GTK+, KDE, LibreOffice, OpenJDK, PlayStation, 
+  Qt, XeTeX, and other places.
+6.lame
+  The LAME package contains an MP3 encoder and optionally, an MP3 frame analyzer. This is useful for creating 
+  and analyzing compressed audio files.
+7.libass
+  libass is a portable subtitle renderer for the ASS/SSA (Advanced Substation Alpha/Substation Alpha) subtitle 
+  format that allows for more advanced subtitles than the conventional SRT and similar formats.
+  
+8.expat
+  Expat, a stream-oriented XML parser library written in C.Expat excels with files too large to fit RAM, and 
+  where performance and flexibility are crucial
+
+9.ogg
+  Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia 
+  codecs. As with all Xiph.org technology is it an open format free for anyone to use.
+
+10.theora
+  Theora is a free and open video compression format from the Xiph.org Foundation.
+
+11.vorbis
+  Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+  for mid to high quality (8kHz-48.0kHz, 16+ bit, polyphonic) audio and music at fixed and variable bitrates 
+  from 16 to 128 kbps/channel.
+
+12.libvpx
+  This package, from the WebM project, provides the reference implementations of the VP8 Codec, used in most 
+  current html5 video, and of the next-generation VP9 Codec. 
+  
+13.libwebp
+  The libwebp package contains a library and support programs to encode and decode images in WebP format.
+
+14.opencore-amr
+  Open source implementation of the Adaptive Multi Rate (AMR) speech codec.
+
+15.openjpeg
+  OpenJPEG is an open-source implementation of the JPEG-2000 standard. OpenJPEG fully respects the JPEG-2000
+  specifications and can compress/decompress lossless 16-bit images.
+  
+16.openssl
+  OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and
+  Secure Sockets Layer (SSL) protocols. It is also a general-purpose cryptography library.
+
+17.opus
+  Opus is a lossy audio compression format developed by the Internet Engineering Task Force (IETF) that is 
+  particularly suitable for interactive speech and audio transmission over the Internet.
+
+18.rtmpdump
+  Real Time Messaging Protocol.RTMPDump is a lightweight tool designed to help you capture RTMP connections
+  and dump media files.
+
+19.soxr
+  High quality 1D sample-rate conversion library.
+  
+20.speex
+  Speex is an audio compression format designed especially for speech. It is well-adapted to internet 
+  applications and provides useful features that are not present in most other CODECs.
+  
+21.zimg
+  A lightweight and high performance image storage and processing system. The zimg is an image storage
+  and processing server. http://zimg.buaa.us/
+
+22.zlib
+  A Massively Spiffy Yet Delicately Unobtrusive Compression Library.

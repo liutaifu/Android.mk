@@ -57,3 +57,18 @@ LOCAL_MODULE_CLASS := FAKE
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_CLASS := APPS
+
+
+配置Android.mk编译遇到如下error
+ xx/opencv2/flann/any.h:58:63: error: cannot use typeid with -fno-rtti 
+ virtual const std::type_info& type() CV_OVERRIDE { return typeid(T); }    
+    
+    rtti (Run-Time Type Information, or  Run-Time Type Identification)
+解决方法，在makefile 的 CXXFLAGS 里去掉 -fno-rtti即可
+Android.mk：
+  OPENCV_COMMON_CFLAGS := -std=c1x \
+            -fexceptions \
+            -frtti \
+  
+  LOCAL_CFLAGS := $(OPENCV_COMMON_CFLAGS)
+

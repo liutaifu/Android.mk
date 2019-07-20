@@ -80,5 +80,4 @@ LOCAL_SHARED_LIBRARIES (:)+= libcutils libmmcamera2_mct
 
 
 rand.cpp:250:9: error: unknown type name 'float32x4x2_t'
-    查找定义位置，加入头文件，依然相同报错，对比分析LOCAL_CFLAGS变量位置在LOCAL_C_INCLUDES，LOCAL_SRC_FILES
-之后位置，修改到之前位置，不再报次错误。
+    

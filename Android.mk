@@ -77,3 +77,8 @@ opencv库未加载成功
 LOCAL_SHARED_LIBRARIES := libcutils
 LOCAL_SHARED_LIBRARIES (:)+= libcutils libmmcamera2_mct
 因为LOCAL_SHARED_LIBRARIES赋值时,从第二个开始需使用（+=），否则会将之前的库给冲掉了导致不加载，定义时注意。
+
+
+rand.cpp:250:9: error: unknown type name 'float32x4x2_t'
+    查找定义位置，加入头文件，依然相同报错，对比分析LOCAL_CFLAGS变量位置在LOCAL_C_INCLUDES，LOCAL_SRC_FILES
+之后位置，修改到之前位置，不再报次错误。

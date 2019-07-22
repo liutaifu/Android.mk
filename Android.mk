@@ -81,3 +81,5 @@ LOCAL_SHARED_LIBRARIES (:)+= libcutils libmmcamera2_mct
 
 rand.cpp:250:9: error: unknown type name 'float32x4x2_t'
     
+在cvconfig.h中定义CV_ENABLE_INSTICIS变量，编译即可通过，因为 float32x4x2_t 定义时是inline，如何分析
+还需继续跟踪。

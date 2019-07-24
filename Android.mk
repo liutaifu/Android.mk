@@ -78,8 +78,15 @@ LOCAL_SHARED_LIBRARIES := libcutils
 LOCAL_SHARED_LIBRARIES (:)+= libcutils libmmcamera2_mct
 因为LOCAL_SHARED_LIBRARIES赋值时,从第二个开始需使用（+=），否则会将之前的库给冲掉了导致不加载，定义时注意。
 
-
+opencv_core模块编译
 rand.cpp:250:9: error: unknown type name 'float32x4x2_t'
     
 在cvconfig.h中定义CV_ENABLE_INSTICIS变量，编译即可通过，因为 float32x4x2_t 定义时是inline，如何分析
 还需继续跟踪。
+
+opencv_imgproc模块
+依赖opencv_core模块
+
+opencv_imgcodecs模块
+modules/imgcodecs/src/grfmt_exr.hpp:52:10: fatal error: 'ImfChromaticities.h' file not found
+依赖3rdparty/openexr/模块 

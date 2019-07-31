@@ -90,3 +90,10 @@ opencv_imgproc模块
 opencv_imgcodecs模块
 modules/imgcodecs/src/grfmt_exr.hpp:52:10: fatal error: 'ImfChromaticities.h' file not found
 依赖3rdparty/openexr/模块 
+
+
+
+
+单独编译模块
+遇到这个问题 C_INCLUDES must be under the source or output directories:
+LOCAL_C_INCLUDES 使用了绝对路径，修改相对路径即可。

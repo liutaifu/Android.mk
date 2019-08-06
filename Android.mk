@@ -97,3 +97,7 @@ modules/imgcodecs/src/grfmt_exr.hpp:52:10: fatal error: 'ImfChromaticities.h' fi
 单独编译模块
 遇到这个问题 C_INCLUDES must be under the source or output directories:
 LOCAL_C_INCLUDES 使用了绝对路径，修改相对路径即可。
+
+添加模块编译时遇到路径交叉，ltfopencv和mm-camera-interface是同级目录
+hardware/qcom/camera/QCamera2/stack/ltfopencv/mm-camera-interface/Android.mk: No such file or directory
+

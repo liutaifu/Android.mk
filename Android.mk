@@ -101,3 +101,5 @@ LOCAL_C_INCLUDES 使用了绝对路径，修改相对路径即可。
 添加模块编译时遇到路径交叉，ltfopencv和mm-camera-interface是同级目录
 hardware/qcom/camera/QCamera2/stack/ltfopencv/mm-camera-interface/Android.mk: No such file or directory
 
+动态库链接遇到native不匹配
+error: camera.sdm660 (native:vendor) should not link to ltfsnapshot (native:platform)

@@ -1,0 +1,2 @@
+1. 使用ubuntu20.04搭建yocto项目，编译遇到"undefined reference to `stime'"
+    问题原因和处理方案 https://blog.csdn.net/buxiangxiedaima/article/details/115317994
